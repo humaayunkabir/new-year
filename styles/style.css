@@ -68,6 +68,19 @@ h6 {
     color: #fff;
 }
 
+.btn-soft-small {
+    padding: 7px 15px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #ffffff;
+    background: #005FAC;
+}
+
+.btn-soft-small:hover {
+    border: 1px solid #005FAC;
+    color: #005FAC;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -249,7 +262,7 @@ footer p,
 footer h2,
 footer i,
 footer .col-p,
-h2.section-heading {
+footer h2.section-heading {
     color: #FFFFFF;
 }
 
@@ -357,3 +370,49 @@ footer .btn-primary:hover {
 }
 
 /* footer css end */
+
+
+
+/* protfolio-grid-section  */
+.protfolio-grid-section .section-heading {
+    margin-bottom: 50px;
+}
+
+.protfolio-grid-section .bg {
+    padding-bottom: 130px;
+}
+
+.protfolio-grid-section .content {
+    border-radius: 10px;
+    box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #ffffff2b;
+    width: 31%;
+    margin-right: 3.5%;
+}
+
+.protfolio-grid-section .content:last-child {
+    margin-right: 0;
+}
+
+.protfolio-grid-section .content .global-h4 {
+    color: #005FAC;
+    line-height: 1.3em;
+    font-size: 1.3em;
+}
+
+.protfolio-grid-section .content p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.protfolio-grid-section .content img {
+    width: 100%;
+    height: 325px;
+    object-fit: cover;
+}
+
+.protfolio-grid-section .content .card-body {
+    text-align: center;
+    padding: 30px;
+}
