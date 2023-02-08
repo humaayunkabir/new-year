@@ -122,7 +122,7 @@ img {
 
 /* failures-section css start */
 .failures-section {
-    padding: 70px 0;
+    padding: 130px 0;
 }
 
 .failures-section .p {
@@ -195,3 +195,165 @@ h3.column-heading {
 }
 
 /* plans-section css end */
+
+
+
+/* always-keep-section css start */
+.always-keep-section {
+    padding: 80px 0;
+}
+
+.always-keep-section {
+    padding: 130px 0;
+}
+
+.bg_style {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.always-keep-section .bg {
+    background-image: url('../images/watch.png');
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.always-keep-section .content {
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    border-radius: 8px;
+    padding: 60px;
+}
+
+.always-keep-section h2.section-heading {
+    color: #FFFFFF;
+    max-width: 500px;
+    margin-bottom: 25px;
+}
+
+
+/* always-keep-section css end */
+
+
+
+
+
+/* footer css start */
+footer {
+    background: #151414;
+    padding: 130px 0;
+}
+
+footer a,
+footer p,
+footer h2,
+footer i,
+footer .col-p,
+h2.section-heading {
+    color: #FFFFFF;
+}
+
+footer .left-col {
+    width: 70%;
+}
+
+footer .right-col {
+    width: 30%;
+}
+
+footer .right-col form {
+    box-sizing: border-box;
+}
+
+footer .right-col .input-field {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    box-shadow: none;
+    height: 65px;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 15px 0;
+}
+
+footer .right-col input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #FFFFFF;
+}
+
+::-ms-input-placeholder {
+    color: #FFFFFF;
+}
+
+footer .col-p {
+    text-align: left;
+}
+
+footer .pp {
+    max-width: 500px;
+    margin: 15px 0;
+}
+
+.mail-phone li {
+    margin-bottom: 5px;
+}
+
+.social {
+    display: flex;
+    margin-top: 25px;
+}
+
+.social li:not(:last-child) {
+    margin-right: 20px;
+}
+
+.social a i {
+    font-size: 22px;
+}
+
+.social a {
+    height: 45px;
+    width: 45px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.fa-facebook-f {
+    color: #006AFF;
+}
+
+.fa-twitter {
+    color: #1DA1F2;
+}
+
+.fa-youtube {
+    color:
+        #FF0000;
+}
+
+footer .btn-primary {
+    background-color: #005FAC;
+    border: 1px solid #005FAC;
+    color: #fff;
+}
+
+footer .btn-primary:hover {
+    border: 1px solid #FFFFFF;
+}
+
+/* footer css end */
