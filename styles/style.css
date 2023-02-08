@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Global CSS start*/
+.container {
+    max-width: 1170px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p,
+a,
+span,
+strong,
+i {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration: none;
+    color: #444343;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-weight: 700;
+}
+
+.btn-primary {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #005FAC;
+    background: #FFFFFF;
+    border-radius: 5px;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+    padding: 10px 20px;
+    border: 1px solid #FFFFFF;
+}
+
+.btn-primary:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}
+
+/* Global CSS end*/
+
+
+.header-section {
+    background-image: url('../images/banner3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 215px;
+    padding-bottom: 215px;
+}
+
+.header-section .content {
+    text-align: right;
+}
+
+.header-section h1.page-heading {
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: #FFFFFF;
+    max-width: 500px;
+    margin: auto;
+    margin-right: 0;
+}
+
+.header-section p {
+    color: #fff;
+    max-width: 500px;
+    margin-right: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+}
+
+/* failures-section css start */
+.failures-section {
+    padding: 70px 0;
+}
+
+.failures-section .p {
+    margin: 15px 0;
+}
+
+.failures-section li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.failures-section li i {
+    color: #005FAC;
+    margin-right: 7px;
+}
+
+h2.section-heading {
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.failures-section h2 {
+    max-width: 300px;
+}
+
+.failures-section .row {
+    align-items: center;
+}
+
+.failures-section .failures-main {
+    width: 46.5%;
+}
+
+.failures-section .failures-img-col {
+    margin-right: 7%;
+}
+
+/* failures-section css end */
