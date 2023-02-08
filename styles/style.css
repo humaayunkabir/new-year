@@ -14,7 +14,7 @@ body {
 
 /* Global CSS start*/
 .container {
-    max-width: 1170px;
+    max-width: 1240px;
     padding-left: 50px;
     padding-right: 50px;
     margin: 0 auto;
@@ -78,7 +78,11 @@ ul li {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
+}
+
+.text-center {
+    text-align: center;
 }
 
 /* Global CSS end*/
@@ -158,4 +162,36 @@ h2.section-heading {
     margin-right: 7%;
 }
 
+h3.column-heading {
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
+}
+
 /* failures-section css end */
+
+
+
+
+
+/* plans-section css start */
+.plans-section .row {
+    margin-top: 50px;
+}
+
+.plans-section .content {
+    width: 25%;
+}
+
+.plans-section .inner-content {
+    padding: 0 2.5px;
+}
+
+.col-p {
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+
+/* plans-section css end */
